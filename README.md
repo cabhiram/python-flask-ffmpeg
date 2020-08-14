@@ -5,7 +5,7 @@ Python + Flask Web Application POC to stream videos across web browsers like Goo
 # Steps
 
 - Build Flask Application.
-- Run python scripts in lib/dash and lib/hls
+- Run python scripts in lib/dash and lib/hls. Check __mpd__ file generated in __static/videos/dash__ and __m3u8__ file generated in __static/videos/hls__ directory
 - Check http://IP:PORT/video/android/ to see video stream in Google Chrome and Firefox
 - Check http://IP:PORT/video/ios/ to see video stream in Apple
   
