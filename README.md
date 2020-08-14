@@ -10,5 +10,5 @@ Python + Flask Web Application POC to stream videos across web browsers like Goo
 - Check http://IP:PORT/video/ios/ to see video stream in Apple
   
 # Prerequisites
-Dynamic Adaptive Streaming over HTTP (DASH)
-HTTP Live Streaming (also known as HLS) 
+- Dynamic Adaptive Streaming over HTTP (DASH)
+- HTTP Live Streaming (also known as HLS) 
