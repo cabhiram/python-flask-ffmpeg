@@ -1,0 +1,3 @@
+Install ffmpeg on your local linux machine using below command
+
+sudo apt-get install ffmpeg

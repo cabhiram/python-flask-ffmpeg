@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Local Mpeg Dash, mpd Player using Dash.js</title>
+    <style>
+        video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<video id="videoPlayer" data-dashjs-player autoplay controls src="{{ url_for('static', filename='videos/dash/dash.mpd') }}">
+</video>
+
+<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
